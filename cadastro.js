@@ -14,3 +14,6 @@ cadastroForm.addEventListener('submit', (event) => {
   alert('Voto registrado com sucesso!');
   cadastroForm.reset(); // Reset the form
 });
+
+
+

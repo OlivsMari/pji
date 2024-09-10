@@ -2,13 +2,13 @@ body {
   font-family: Lucida Bright, Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #d6ffdb;
+  background-color: #b7e1bc;
   color: #333;
 }
 
 header {
   background-color: #55834e;
-  color: #e0ffe7;
+  color: #d6ffdb;
   padding: 20px;
   text-align: center;
 }
@@ -17,7 +17,7 @@ main {
   max-width: 960px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #e0ffe7;
+  background-color: #d8fddc;
   box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
   text-align: center;
 }
@@ -86,10 +86,10 @@ a{
   color: #000000; 
   font-weight: bold;
 }
-  button { /* Button styling */
-    background-color: #4CAF50; /* Green */
+  button { 
+    background-color: black; 
     border: none;
-    color: white;
+    color: black ;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -99,12 +99,27 @@ a{
     cursor: pointer;
   }
   
-footer {
-  background-color: #333;
-  color: white;
-  padding: 10px;
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Add the following styles to adjust the footer */
+    z-index: 100; /* Ensure the footer stays on top */
+    margin-top: 0; /* Remove default top margin */
+  }
+
+  /* ... (Your existing CSS) ... */
+
+  #master {
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* Add the following styles */
+    padding-bottom: 80px; /* Adjust the padding to accommodate the footer */
+  }

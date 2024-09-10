@@ -1,0 +1,130 @@
+#home-button-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#master {
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+#home-button-container button {
+  background-color: #71a96a;
+  color: #d6ffdb;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+#home-button-container button:hover {
+  background-color: #3e8e41;
+}
+
+.faq-section {
+  width: 80%;
+  max-width: 600px;
+  background-color: #71a96a;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+body {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.faq-section h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.faq-item {
+  margin-bottom: 15px;
+  background-color: #d6ffdb;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.faq-question {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.faq-answer {
+  display: none;
+}
+
+.faq-answer.show {
+  display: block;
+}
+
+
+body {
+  font-family: Lucida Bright, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d6ffdb;
+  color: #333;
+  align-items: center;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d6ffdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+
+}
+<p style="text-align: center; font-size: 14px; margin-top: 10px;">
+  <a href="your-contact-page.html">Dúvidas? Entre em contato conosco!</a>
+</p>

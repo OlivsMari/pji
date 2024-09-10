@@ -1,0 +1,134 @@
+#home-button-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#master {
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+#home-button-container button {
+  background-color: #71a96a;
+  color: #d6ffdb;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+#home-button-container button:hover {
+  background-color: #3e8e41;
+}
+
+#home-button-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#master {
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#home-button-container button {
+  background-color: #71a96a;
+  color: #d6ffdb;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#home-button-container button:hover {
+  background-color: #3e8e41;
+}
+
+.integrante {
+  text-align: center;
+  padding: 20px;
+  background-color: #71a96a; 
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.1); 
+  border-radius: 5px;
+}
+
+.integrante h2 {
+  margin-bottom: 20px;
+}
+
+.group-photo {
+  margin-bottom: 20px;
+}
+
+.group-photo img {
+  max-width: 500px; /* Adjust as needed */
+  border-radius: 5px;
+}
+
+.integrante p {
+  margin-bottom: 10px;
+}
+
+.integrante strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.integrante a {
+  color: #000000; 
+  font-weight: bold;
+}
+
+
+body {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d6ffdb; /* Light green background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Add the following styles to adjust the footer */
+  z-index: 100; /* Ensure the footer stays on top */
+  margin-top: 0; /* Remove default top margin */
+}
+
+/* ... (Your existing CSS) ... */
+
+#master {
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  /* Add the following styles */
+  padding-bottom: 80px; /* Adjust the padding to accommodate the footer */
+}
