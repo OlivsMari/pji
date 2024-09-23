@@ -116,9 +116,8 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  /* Add the following styles to adjust the footer */
-  z-index: 100; /* Ensure the footer stays on top */
-  margin-top: 0; /* Remove default top margin */
+  z-index: 100; 
+  margin-top: 0; 
 }
 
 /* ... (Your existing CSS) ... */
@@ -129,6 +128,5 @@ footer {
   justify-content: center;
   display: flex;
   flex-direction: column;
-  /* Add the following styles */
-  padding-bottom: 80px; /* Adjust the padding to accommodate the footer */
+  padding-bottom: 80px; 
 }

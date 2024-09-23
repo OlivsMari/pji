@@ -40,9 +40,9 @@ section {
 }
 
 .feature {
-  display: block; 
-  width: 40%; 
-  padding: 10px; 
+  display: block;
+  width: 40%;
+  padding: 10px;
   margin-bottom: 5px;
   margin: 10px;
   background-color: #71a96a;
@@ -54,12 +54,15 @@ section {
 }
 
 
-.feature a button { /* Estilo para o botão dentro do link */
-  text-decoration: none; /* Remove o sublinhado */
-  color: #000; /* Define a cor do texto */
+.feature a button {
+  /* Estilo para o botão dentro do link */
+  text-decoration: none;
+  /* Remove o sublinhado */
+  color: #000;
+  /* Define a cor do texto */
 }
 
-a{
+a {
   text-decoration: none;
   color: #1f1f1f;
 }
@@ -68,7 +71,9 @@ a{
 .feature img {
   width: 40px;
   margin-top: 15px;
-  a:hover {
+}
+
+a:hover {
   background-color: #71a96a;
 }
 
@@ -83,43 +88,46 @@ a{
 
 .access a {
   text-decoration: none;
-  color: #000000; 
+  color: #000000;
   font-weight: bold;
 }
-  button { 
-    background-color: black; 
-    border: none;
-    color: black ;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-  
-  footer {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    /* Add the following styles to adjust the footer */
-    z-index: 100; /* Ensure the footer stays on top */
-    margin-top: 0; /* Remove default top margin */
-  }
 
-  /* ... (Your existing CSS) ... */
+button {
+  background-color: black;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 
-  #master {
-    width: 100vw;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    /* Add the following styles */
-    padding-bottom: 80px; /* Adjust the padding to accommodate the footer */
-  }
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+  /* Ensure the footer stays on top */
+  margin-top: 0;
+  /* Remove default top margin */
+}
+
+/* ... (Your existing CSS) ... */
+
+#master {
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  /* Add the following styles */
+  padding-bottom: 80px;
+  /* Adjust the padding to accommodate the footer */
+}
